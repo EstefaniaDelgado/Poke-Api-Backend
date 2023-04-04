@@ -7,9 +7,7 @@ const router = Router();
 router.get('/', async (req, res) => {
   try {
     const infoApiByType = await getInfoApiByType();
-    const types = infoApiByType['results'].map((t) => t.name); 
-   // console.log(types);
-   
+    const types = infoApiByType['results'].map((t) => t.name);    
     types.forEach((elem) => {
       Tipo.findOrCreate({
         // seteo los tipos en la base de datos, cuando llamo a la ruta me los guarda en base de datos
