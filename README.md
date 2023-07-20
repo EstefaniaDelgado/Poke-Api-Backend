@@ -1,5 +1,5 @@
 # Poke-Api 📺
-<img height="150" src="./pokemon.png"/>
+<img height="150" src="./Snorlax.webp"/>
 Project was created using API of a popular cartoon program called Pokemón. 
 
 <hr>
@@ -22,7 +22,10 @@ Backend👩‍💻:
 </br>
 ✨posgresql
 </br>
-✨
+✨nodemon
+</br>
+✨dotenv
+
 
 <hr>
 DEPLOY 🚀:
